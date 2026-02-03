@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "translations": [
+        {
+            "steam_app_id": "123456",
+            "version": "1.0",
+            "authors": [
+                "Team Viethoa"
+            ],
+            "last_updated": "2026-02-03",
+            "description": "Bản dịch hoàn chỉnh 100%"
+        }
+    ]
+}

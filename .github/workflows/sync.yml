@@ -1,0 +1,42 @@
+name: Sync from WordPress
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Run every hour
+  workflow_dispatch:      # Manual trigger via GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Sync Script
+        env:
+          # Secrets configured in GitHub Repo Settings
+          WP_API_URL: ${{ secrets.WP_API_URL }} 
+          WP_API_KEY: ${{ secrets.WP_API_KEY }}
+        run: node scripts/sync-from-wp.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit & Push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config user.name "MVH Bot"
+          git config user.email "bot@meviethoa.com"
+          git add api/
+          git commit -m "chore: sync data from WordPress [skip ci]"
+          git push
