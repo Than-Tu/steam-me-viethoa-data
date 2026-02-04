@@ -8,6 +8,13 @@
             "has_viethoa": true,
             "requires_discord": true,
             "discord_role": "1000000000000000000"
+        },
+        {
+            "steam_app_id": "3804320",
+            "title": "Where Winds Meet Playtest",
+            "has_viethoa": true,
+            "requires_discord": true,
+            "discord_role": "1000000000000000000"
         }
     ]
 }
