@@ -3,11 +3,11 @@
     "updated_at": "2026-02-03T23:00:00Z",
     "games": [
         {
-            "steam_app_id": "123456",
-            "title": "Example Game",
+            "steam_app_id": "3564740",
+            "title": "Where Winds Meet (Yến Vân Thập Lục)",
             "has_viethoa": true,
             "requires_discord": true,
-            "discord_role": "123456789"
+            "discord_role": "1000000000000000000"
         }
     ]
 }
