@@ -1,20 +1,22 @@
 {
     "version": "1.0.0",
-    "updated_at": "2026-02-03T23:00:00Z",
+    "updated_at": "2026-02-04T07:00:00Z",
     "games": [
         {
             "steam_app_id": "3564740",
             "title": "Where Winds Meet (Yến Vân Thập Lục)",
             "has_viethoa": true,
             "requires_discord": true,
-            "discord_role": "1000000000000000000"
+            "discord_role": "1000000000000000000",
+            "has_details": true
         },
         {
             "steam_app_id": "3804320",
             "title": "Where Winds Meet Playtest",
             "has_viethoa": true,
             "requires_discord": true,
-            "discord_role": "1000000000000000000"
+            "discord_role": "1000000000000000000",
+            "has_details": true
         }
     ]
 }

@@ -1,0 +1,33 @@
+{
+    "steam_app_id": "3564740",
+    "title": "Where Winds Meet (Yến Vân Thập Lục)",
+    "description": "\"Yến Vân Thập Lục Thanh\" là tựa game nhập vai hành động phiêu lưu thế giới mở mang tầm vóc sử thi, lấy văn hóa võ hiệp làm cốt lõi.\nBối cảnh câu chuyện đặt tại Trung Hoa thế kỷ thứ 10 đầy biến động, bạn sẽ hóa thân thành một kiếm khách trẻ tuổi, vén màn những sự thật bị lãng quên và bí ẩn về thân thế của chính mình.\nKhi ngọn gió lành thổi qua non sông, cũng là lúc huyền thoại của bạn chính thức mở màn.",
+    "youtube_id": "V6hH3K7Ylrc",
+    "features": [
+        "Thế giới mở với khả năng vô hạn",
+        "Cốt truyện Wuxia sử thi",
+        "Hệ thống kỹ năng võ công đa dạng"
+    ],
+    "patch_notes": [
+        {
+            "date": "24/01/2026",
+            "title": "UPDATE Việt Hóa Hỗ Trợ Bản [Nội Địa Trung]",
+            "content": "- Hết (High lv Beta) => Trau chuốt tinh chỉnh câu từ, đồng bộ tên, ...\n- Fix Sót Text\n- Fix Lỗi Launcher\n- Đã dịch thêm toàn bộ text mới\n- Đã hỗ trợ chuyển đổi tiếng anh – việt"
+        },
+        {
+            "date": "16/01/2026",
+            "title": "UPDATE Việt Hóa Theo PatchNotes #33267453",
+            "content": "Cập nhật tương thích với phiên bản mới nhất từ nhà phát hành."
+        },
+        {
+            "date": "10/01/2026",
+            "title": "UPDATE Việt Hóa Theo BIGPatchNotes Version 1.2.0",
+            "content": "Cập nhật lớn, đồng bộ dữ liệu dịch thuật mới."
+        },
+        {
+            "date": "09/12/2025",
+            "title": "Ra Mắt Bản Dịch REMAKE bằng AI DeepThinkPLUS (High lv – Beta)",
+            "content": "Sử dụng công nghệ AI tiên tiến để cải thiện chất lượng dịch thuật vượt trội."
+        }
+    ]
+}
